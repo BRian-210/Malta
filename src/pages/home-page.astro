@@ -1,0 +1,15 @@
+
+---
+import StandardLayout from '@/layouts/StandardLayout.astro'
+import HomePageContent from '@/components/home-page/HomePageContent'
+
+const currentPath = Astro.url.pathname
+---
+
+<StandardLayout 
+  title="Malta Construction Agency - Structural Design, Architectural & Interior Design"
+  description="Award-winning Malta construction agency specializing in structural engineering, architectural design, interior design, and consultation services for residential and commercial projects."
+  headerVariant="transparent"
+>
+  <HomePageContent client:load />
+</StandardLayout>

@@ -1,0 +1,19 @@
+---
+import StandardLayout from '@/layouts/StandardLayout.astro';
+import PageHero from '@/components/common/PageHero';
+import AdminPanelContent from '@/components/admin/AdminPanelContent';
+---
+
+<StandardLayout
+  title="Admin Panel | Malta Construction Agency"
+  description="Manage projects, team members, and website inquiries."
+>
+  <PageHero
+    title="Admin Panel"
+    subtitle="Manage portfolio content, team members, and incoming website requests from one place."
+    backgroundImage="https://spark-builder.s3.us-east-1.amazonaws.com/image/2026/4/26/8e1e3e21-8f7e-44ed-8b57-3641d9715b3d.png"
+    variant="compact"
+  />
+
+  <AdminPanelContent client:load />
+</StandardLayout>

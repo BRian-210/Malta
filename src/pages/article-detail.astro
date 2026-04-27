@@ -1,0 +1,12 @@
+
+---
+import StandardLayout from '@/layouts/StandardLayout.astro';
+import ArticleDetail from '@/components/article_detail/ArticleDetail';
+
+const title = 'Article | Malta Build Studio';
+const description = 'Read industry insights and expert advice on Maltese construction, architecture, and design.';
+---
+
+<StandardLayout title={title} description={description}>
+  <ArticleDetail client:load />
+</StandardLayout>

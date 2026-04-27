@@ -1,0 +1,35 @@
+
+---
+import StandardLayout from '@/layouts/StandardLayout.astro';
+import PageHero from '@/components/common/PageHero';
+import TeamGrid from '@/components/our-team/TeamGrid';
+
+const title = 'Our Team | Maltese Aesthetics';
+const description = 'Meet the expert architects, structural engineers, and designers behind Maltese Aesthetics. Local expertise, international standards.';
+---
+
+<StandardLayout title={title} description={description} headerVariant="solid">
+  <main class="flex flex-col min-h-screen">
+    <PageHero
+      title="Meet Our Team"
+      subtitle="Expert architects, structural engineers, and designers dedicated to elevating Maltese construction and design."
+      backgroundImage="https://spark-builder.s3.us-east-1.amazonaws.com/image/2026/4/26/21f1aedd-4cea-4979-899b-a20d8c004dfe.png"
+      variant="compact"
+    />
+
+    <section class="page-body flex-1">
+      <div class="page-container">
+        <div class="mb-12 max-w-3xl">
+          <h2 class="text-section-title mb-4">
+            Passion for Excellence
+          </h2>
+          <p class="text-body text-foreground/80">
+            Our team combines decades of collective experience in structural engineering, architectural design, and interior planning. Each member brings a unique perspective shaped by Malta's rich architectural heritage and modern construction challenges. We're committed to delivering solutions that honor tradition while embracing innovation.
+          </p>
+        </div>
+
+        <TeamGrid client:load />
+      </div>
+    </section>
+  </main>
+</StandardLayout>

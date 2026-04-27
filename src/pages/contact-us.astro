@@ -1,0 +1,20 @@
+
+---
+import StandardLayout from '@/layouts/StandardLayout.astro';
+import PageHero from '@/components/common/PageHero';
+import ContactContent from '@/components/contact-us/ContactContent';
+---
+
+<StandardLayout 
+  title="Contact Us | Malta Construction Agency" 
+  description="Get in touch with our architectural and engineering team in Malta. Phone, email, office location, and inquiry form available."
+>
+  <PageHero
+    title="Get in Touch"
+    subtitle="Reach out to our team in Malta. We're ready to discuss your next architectural or construction project."
+    backgroundImage="https://spark-builder.s3.us-east-1.amazonaws.com/image/2026/4/26/5d11c29a-b56e-45fa-a7c1-697840bc8cce.png"
+    variant="compact"
+  />
+
+  <ContactContent client:load />
+</StandardLayout>

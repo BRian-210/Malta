@@ -1,0 +1,51 @@
+const serviceDataList = [{
+  id: "service-structural-design",
+  slug: "structural-design",
+  name: "Structural Design",
+  summary: "Load-bearing analysis and structural integrity for new builds and renovations in Malta.",
+  description: "We provide structural design services for residential and commercial projects, including reinforcement strategy, structural assessments, and renovation support for Maltese properties.",
+  iconName: "Building2",
+  route: "./structural-design-service.html",
+  category: "Engineering",
+  featured: true,
+  sortOrder: 1
+}, {
+  id: "service-architectural-design",
+  slug: "architectural-design",
+  name: "Architectural Design",
+  summary: "Concept development, planning support, and permit-ready design solutions.",
+  description: "Our architectural team shapes practical and elegant concepts, prepares planning packages, and supports Maltese Planning Authority submissions with clear design documentation.",
+  iconName: "Ruler",
+  route: "./architectural-design-service.html",
+  category: "Design",
+  featured: true,
+  sortOrder: 2
+}, {
+  id: "service-interior-design",
+  slug: "interior-design",
+  name: "Interior Design",
+  summary: "Spatial planning, finishes, and interior concepts that blend modern comfort with Maltese character.",
+  description: "We plan interiors from layout optimization to finish selection, creating homes that feel refined, functional, and tailored to the client lifestyle.",
+  iconName: "LampCeiling",
+  route: "./interior-design-service.html",
+  category: "Interiors",
+  featured: true,
+  sortOrder: 3
+}, {
+  id: "service-consultation",
+  slug: "consultation-services",
+  name: "Consultation Services",
+  summary: "Professional guidance for site inspections, compliance checks, and project planning.",
+  description: "Our consultation service helps clients understand site conditions, legal requirements, and the best project path before committing to full design work.",
+  iconName: "MessageSquareMore",
+  route: "./consultation-services.html",
+  category: "Advisory",
+  featured: true,
+  sortOrder: 4
+}];
+function getAll() {
+  return serviceDataList;
+}
+export {
+  getAll as g
+};
