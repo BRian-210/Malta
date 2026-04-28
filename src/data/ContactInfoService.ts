@@ -22,7 +22,7 @@ export const contactInfoDataList: ContactInfoData[] = [
   {
     id: 'contact-office-address',
     label: 'Office',
-    value: 'Kush Plaza 1st Floor-Ngurubani Town,Kirinyaga County',
+    value: 'Kush Plaza 1st Floor-Mwea Town,Kirinyaga County',
     type: 'address',
     iconName: 'MapPin',
     primary: true,

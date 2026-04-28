@@ -10,7 +10,7 @@ export const companyProfileDataList: CompanyProfileData[] = [
     vision: 'To be the most trusted local partner for homes that are structurally sound, beautifully designed, and practical to live in.',
     description: 'We are a Malta-based agency focused on structural design, architectural design, interior design, and consultation services for residential and light commercial clients.',
     values: ['Technical accuracy', 'Local knowledge', 'Transparent communication', 'Refined design'],
-    officeLocation: 'Kush plaza building 1st Floor, Ngurubani',
+    officeLocation: 'Kush plaza building 1st Floor, Mwea town',
     serviceArea: 'Country Wide',
     sortOrder: 1
   }

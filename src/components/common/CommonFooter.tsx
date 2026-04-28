@@ -83,7 +83,7 @@ export default function CommonFooter() {
               <li className="flex items-start gap-3">
                 <SafeIcon name="MapPin" size={18} className="text-primary mt-0.5 shrink-0" />
                 <span className="text-sm text-muted-foreground">
-                  Kush Plaza 1st Floor,<br />Ngurubani Town
+                  Kush Plaza 1st Floor,<br />Mwea Town
                 </span>
               </li>
               <li className="flex items-center gap-3">
