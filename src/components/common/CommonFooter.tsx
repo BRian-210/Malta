@@ -107,7 +107,6 @@ export default function CommonFooter() {
           <div className="flex items-center gap-8">
             <a href="#" onClick={(e) => { e.preventDefault(); }} className="text-xs text-muted-foreground hover:text-foreground">Privacy Policy</a>
             <a href="#" onClick={(e) => { e.preventDefault(); }} className="text-xs text-muted-foreground hover:text-foreground">Terms of Service</a>
-            <a href="./admin-panel.html" className="text-xs text-muted-foreground hover:text-foreground">Admin Panel</a>
             <p className="text-xs text-muted-foreground/60 select-none">License</p>
           </div>
         </div>
