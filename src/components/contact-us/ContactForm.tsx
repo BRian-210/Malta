@@ -132,7 +132,7 @@ export default function ContactForm({ isClient }: ContactFormProps) {
           </div>
           <div>
             <Label htmlFor="phone">Phone (Optional)</Label>
-            <Input id="phone" type="tel" placeholder="+356 XXXX XXXX" disabled />
+            <Input id="phone" type="tel" placeholder="+254 XXXX XXXX" disabled />
           </div>
           <div>
             <Label htmlFor="subject">Subject</Label>

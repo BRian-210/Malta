@@ -7,7 +7,7 @@ export const teamMemberDataList: TeamMemberData[] = [
   {
     id: 'team-Bryan',
     name: 'Bryan',
-    role: 'Lead Architect',
+    role: 'Architect',
     specialty: 'Residential Concept Design',
     license: 'Malta Consultant',
     bio: 'Bryan leads concept development and planning submissions for homes, small developments, and heritage-sensitive projects.',

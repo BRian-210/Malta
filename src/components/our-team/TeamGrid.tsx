@@ -85,7 +85,7 @@ export default function TeamGrid() {
             Join Our Growing Team
           </h3>
           <p className="text-body text-foreground/80 mb-6">
-            We're always looking for talented architects, engineers, and designers who share our passion for Maltese heritage and modern innovation. If you're interested in joining our team, we'd love to hear from you.
+            We're always looking for talented architects, engineers, and designers who share our passion for modern innovation. If you're interested in joining our team, we'd love to hear from you.
           </p>
           <button
             onClick={() => window.location.href = './contact-us.html'}

@@ -4,7 +4,7 @@ export const contactInfoDataList: ContactInfoData[] = [
   {
     id: 'contact-phone-main',
     label: 'Phone',
-    value: '+254 742052920',
+    value: '+254 797102970',
     type: 'phone',
     iconName: 'Phone',
     primary: true,
@@ -13,7 +13,7 @@ export const contactInfoDataList: ContactInfoData[] = [
   {
     id: 'contact-email-main',
     label: 'Email',
-    value: 'githinjibriank973@gmail.com',
+    value: 'kinyanmuigai@gmail.com',
     type: 'email',
     iconName: 'Mail',
     primary: true,
@@ -22,7 +22,7 @@ export const contactInfoDataList: ContactInfoData[] = [
   {
     id: 'contact-office-address',
     label: 'Office',
-    value: 'Mwea,Ngurubani Town - Kirinyaga County',
+    value: 'Kush Plaza 1st Floor-Ngurubani Town,Kirinyaga County',
     type: 'address',
     iconName: 'MapPin',
     primary: true,

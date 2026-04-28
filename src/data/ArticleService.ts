@@ -16,7 +16,7 @@ export const articleDataList: ArticleData[] = [
   {
     id: 'article-malta-planning-permits-guide',
     slug: 'malta-planning-permits-guide',
-    title: 'A Practical Guide to Planning Permits in Malta',
+    title: 'A Practical Guide to Planning Permits in Construction',
     section: 'Regulations',
     summary: 'Understand the core steps involved in preparing planning submissions for Maltese homes and renovations.',
     content: 'Planning in Malta can feel complex, but the process becomes more manageable when the brief, drawings, and supporting notes are organized early. This guide explains how homeowners can prepare for permit applications, what consultants typically review, and why clear documentation reduces delays. It also highlights common mistakes such as incomplete site information, unclear scope descriptions, and uncoordinated consultant inputs. For renovation and extension projects, a careful planning strategy often saves time and helps the project move forward with fewer surprises.',
@@ -46,7 +46,7 @@ export const articleDataList: ArticleData[] = [
   {
     id: 'article-interior-finishes-malta',
     slug: 'interior-finishes-malta',
-    title: 'Choosing Interior Finishes for Maltese Homes',
+    title: 'Choosing Interior Finishes for Homes',
     section: 'Design Trends',
     summary: 'Material selection tips for balancing durability, light, and the character of local homes.',
     content: 'Interior finishes shape the entire feeling of a home. In Malta, designers often balance bright daylight, limestone textures, and practical everyday use. This article covers flooring, joinery, wall finishes, and how to choose a palette that feels timeless rather than trendy. It also explains why durable surfaces and thoughtful detailing are valuable in both apartments and family homes, especially where space is limited or heavily used.',
@@ -76,7 +76,7 @@ export const articleDataList: ArticleData[] = [
   {
     id: 'article-heritage-renovation-tips',
     slug: 'heritage-renovation-tips',
-    title: 'Heritage Renovation Tips for Older Malta Properties',
+    title: 'Heritage Renovation Tips for Older building Properties',
     section: 'Regulations',
     summary: 'How to respect historic character while making older homes more practical and efficient.',
     content: 'Heritage projects need patience, documentation, and a strong respect for what is already there. Whether the goal is restoration or light adaptation, the best results usually come from understanding the original fabric before proposing changes. This includes evaluating masonry, openings, roof conditions, and the relationship between old and new materials. Good heritage design keeps the building honest while helping it function better for modern life.',
@@ -106,7 +106,7 @@ export const articleDataList: ArticleData[] = [
   {
     id: 'article-small-space-design-tips',
     slug: 'small-space-design-tips',
-    title: 'Design Tips for Small Maltese Apartments',
+    title: 'Design Tips for Small Apartments',
     section: 'Design Trends',
     summary: 'Ideas for improving flow, storage, and brightness in compact living spaces.',
     content: 'Small apartments can still feel generous when the layout is carefully planned. The key is to reduce wasted circulation, choose lighter finishes, and introduce storage solutions that do not overwhelm the room. In Maltese apartment projects, this often means customizing joinery and using natural light as a design asset. The result is a home that feels calm, efficient, and comfortable to live in.',

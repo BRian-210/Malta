@@ -13,7 +13,7 @@ export default function HeroSection() {
       <div className="absolute inset-0 z-0">
         <img
           src="https://spark-builder.s3.us-east-1.amazonaws.com/image/2026/4/26/fc51311f-3a51-4d58-aa06-0811a0857ea0.png"
-          alt="Malta Build Studio - Modern Malta Architecture"
+          alt="Malta Intel Construction Company - Modern Architecture"
           className="w-full h-full object-cover"
         />
         {/* Semantic overlay from global.css */}
@@ -24,11 +24,11 @@ export default function HeroSection() {
       <div className="relative z-10 page-container flex flex-col items-center text-center gap-8 max-w-4xl">
         <div className="space-y-6 animate-fade-in">
           <h1 className="text-6xl md:text-7xl lg:text-8xl font-bold text-primary-foreground leading-tight tracking-tight">
-            Build Your Vision in Malta
+            Build Your Vision with Malta
           </h1>
 
           <p className="text-xl md:text-2xl text-primary-foreground/90 font-light max-w-3xl mx-auto leading-relaxed">
-            Structural engineering, architectural design, interior spaces, and expert consultation — all under one trusted Maltese roof.
+            Structural engineering, architectural design, interior spaces, and expert consultation — all under one trusted roof.
           </p>
         </div>
 

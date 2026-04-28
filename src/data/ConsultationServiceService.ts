@@ -18,7 +18,7 @@ export const consultationServiceDataList: ConsultationServiceData[] = [
     id: 'consultation-planning-advice',
     slug: 'planning-advice',
     title: 'Planning Advice Session',
-    summary: 'Clear guidance on permissions, submissions, and the steps needed for Maltese approvals.',
+    summary: 'Clear guidance on permissions, submissions, and the steps needed for building approvals.',
     details: 'This consultation focuses on planning strategy, likely documentation, and how to prepare a more efficient submission path.',
     iconName: 'FileSearch',
     estimatedDuration: '75 minutes',

@@ -17,7 +17,7 @@ export default function PortfolioPreview({ projects = [] }: PortfolioPreviewProp
         <div className="space-y-4">
           <h2 className="text-section-title">Featured Projects</h2>
           <p className="text-body text-muted-foreground max-w-2xl">
-            Explore our completed works across Malta — from heritage restorations to modern family homes.
+            Explore our completed works across the country — from heritage restorations to modern family homes.
           </p>
         </div>
         <Button

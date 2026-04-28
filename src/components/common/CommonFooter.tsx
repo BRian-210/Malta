@@ -16,11 +16,11 @@ export default function CommonFooter() {
                 <SafeIcon name="Building2" size={18} />
               </div>
               <span className="text-lg font-bold tracking-tight">
-                Malta<span className="text-primary">Agency</span>
+                Malta<span className="text-primary">Intel Construction Company</span>
               </span>
             </div>
             <p className="text-sm text-muted-foreground leading-relaxed max-w-xs">
-              Malta Construction Agency is a premier engineering and architectural agency specialized in preserving construction heritage while building its modern future.
+              Malta Intel Construction Company is a premier engineering and architectural company specialized in preserving construction heritage while building its modern future.
             </p>
             <div className="flex items-center gap-4">
               <a href="#" className="w-10 h-10 rounded-full border border-border flex items-center justify-center hover:bg-primary hover:text-primary-foreground hover:border-primary transition-all">
@@ -88,11 +88,11 @@ export default function CommonFooter() {
               </li>
               <li className="flex items-center gap-3">
                 <SafeIcon name="Phone" size={18} className="text-primary shrink-0" />
-                <span className="text-sm text-muted-foreground">+254 7XXXXXXX</span>
+                <span className="text-sm text-muted-foreground">+254 797102970</span>
               </li>
               <li className="flex items-center gap-3">
                 <SafeIcon name="Mail" size={18} className="text-primary shrink-0" />
-                <span className="text-sm text-muted-foreground">maltaagency@gmail.com</span>
+                <span className="text-sm text-muted-foreground">kinyanmuigai@gmail.com</span>
               </li>
             </ul>
           </div>
@@ -102,7 +102,7 @@ export default function CommonFooter() {
 
         <div className="flex flex-col md:flex-row justify-between items-center gap-6">
           <p className="text-sm text-muted-foreground">
-            © {currentYear} Malta Construction Agency. All rights reserved.
+            © {currentYear} Malta Intel Construction Company. All rights reserved.
           </p>
           <div className="flex items-center gap-8">
             <a href="#" onClick={(e) => { e.preventDefault(); }} className="text-xs text-muted-foreground hover:text-foreground">Privacy Policy</a>

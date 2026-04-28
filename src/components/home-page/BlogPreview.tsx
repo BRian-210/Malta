@@ -22,7 +22,7 @@ export default function BlogPreview({ articles = [] }: BlogPreviewProps) {
         <div className="space-y-4">
           <h2 className="text-section-title">Latest Insights</h2>
           <p className="text-body text-muted-foreground max-w-2xl">
-            Expert advice on Maltese building regulations, design trends, and construction best practices.
+            Expert advice on building regulations, design trends, and construction best practices.
           </p>
         </div>
         <Button

@@ -11,7 +11,7 @@ const reasons: WhyChooseUsItem[] = [
   {
     icon: 'Award',
     title: 'Local Expertise',
-    description: 'Deep knowledge of Maltese building regulations, planning authority requirements, and construction practices.'
+    description: 'Deep knowledge of  building regulations, planning authority requirements, and construction practices.'
   },
   {
     icon: 'Users',
@@ -34,7 +34,7 @@ export default function WhyChooseUs() {
   return (
     <div className="space-y-12">
       <div className="text-center space-y-4">
-        <h2 className="text-section-title">Why Choose Malta Build Studio</h2>
+        <h2 className="text-section-title">Why Choose Malta Intel Construction Company</h2>
         <p className="text-body text-muted-foreground max-w-2xl mx-auto">
           We combine technical excellence with local knowledge to deliver homes and spaces that endure.
         </p>

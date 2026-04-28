@@ -54,10 +54,10 @@ export default function CommonHeader({ currentPath, variant = 'solid' }: CommonH
           </div>
           <div className="flex flex-col">
             <span className={cn("text-xl font-bold tracking-tight leading-none", isTransparent ? "text-black" : "text-foreground")}>
-              Malta<span className={isTransparent ? "text-black/80" : "text-primary"}>Construction Agency</span>
+              Malta<span className={isTransparent ? "text-black/80" : "text-primary"}>Intel Construction Company</span>
             </span>
             <span className={cn("text-[10px] items-center tracking-[0.2em] font-medium uppercase", isTransparent ? "text-black/60" : "text-muted-foreground")}>
-              Design & Engineer
+              Designing Strength,Delivering Excellence
             </span>
           </div>
         </a>

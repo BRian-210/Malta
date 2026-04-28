@@ -12,7 +12,7 @@ export default function ServicesPreview({ services = [] }: ServicesPreviewProps)
       <div className="text-center space-y-4">
         <h2 className="text-section-title">Our Core Expertise</h2>
         <p className="text-body text-muted-foreground max-w-2xl mx-auto">
-          From structural integrity to interior elegance, we guide Maltese property owners through every stage of design and construction.
+          From structural integrity to interior elegance, we guide property owners through every stage of design and construction.
         </p>
       </div>
 
