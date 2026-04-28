@@ -42,7 +42,7 @@ export default function ContactContent() {
           <div className="mb-16">
             <h2 className="text-section-title mb-4">Contact Information</h2>
             <p className="text-body text-muted-foreground max-w-2xl">
-              Reach out to our Malta-based team via phone, email, or visit our office. We're available during business hours and respond to inquiries promptly.
+              Reach out to our Malta team via phone, email, or visit our office. We're available during business hours and respond to inquiries promptly.
             </p>
           </div>
 

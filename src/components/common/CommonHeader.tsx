@@ -27,7 +27,6 @@ const mainLinks = [
   { title: "Home", href: "./home-page.html" },
   { title: "Portfolio", href: "./portfolio-listing.html" },
   { title: "About", href: "./about-us.html" },
-  { title: "Our Team", href: "./our-team.html" },
   { title: "Contact", href: "./contact-us.html" },
 ];
 

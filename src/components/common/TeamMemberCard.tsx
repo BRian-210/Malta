@@ -15,11 +15,6 @@ interface TeamMemberCardProps {
   photoUrl: string;
   credentials?: string;
 }
-
-/**
- * TeamMemberCard component displays professional profile information for agency staff.
- * It uses the consistent surface-raised styling and local Malta-inspired theme colors.
- */
 export default function TeamMemberCard({ 
   name, 
   role, 

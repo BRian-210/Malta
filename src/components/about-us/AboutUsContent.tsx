@@ -19,45 +19,23 @@ export default function AboutUsContent() {
       id: 'default',
       companyName: 'Malta Intel Construction Company',
       foundedYear: 2012,
-      headline: 'Construction planning, structural safety, and elegant Maltese design.',
-      mission: 'To guide Maltese property owners through every stage of design, compliance, and build coordination with clarity and care.',
-      vision: 'To be the most trusted local partner for homes that are structurally sound, beautifully designed, and practical to live in.',
-      description: 'We are a Malta agency focused on structural design, architectural design, interior design, and consultation services.',
+      headline: 'Construction planning, structural safety, and elegant designs.',
+      vision: 'To be a leading construction and architectural firm recognized for innovative designs,quality workmanship and sustainable development.',
+      mission: 'To provide high-quality,cost-effective,timely construction and architectural solutions with a commitment to client satisfaction,safety and innovation.',
+      description: 'We are a Malta Intel Construction Company focused on structural design, architectural design, interior design, and consultation services.',
       values: ['Technical accuracy', 'Local knowledge', 'Transparent communication', 'Refined design'],
-      officeLocation: 'Kush plaza building,1st Floor-Ngurubani',
+      officeLocation: 'Kush plaza building,1st Floor-MweaTown',
       serviceArea: 'Country Wide',
       sortOrder: 1,
     };
   });
 
-  const [featuredTeam, setFeaturedTeam] = useState<TeamMemberData[]>(() => {
-    return TeamMemberService.query({ filter: { featured: true } });
-  });
-
-  useEffect(() => {
-    const syncTeam = async () => {
-      const allMembers = await TeamMemberService.fetchAllShared();
-      setFeaturedTeam(allMembers.filter((member) => member.featured).sort((a, b) => a.sortOrder - b.sortOrder));
-    };
-
-    void syncTeam();
-    const unsubscribe = TeamMemberService.subscribeToSharedTeamMembers(() => void syncTeam());
-
-    return () => {
-      unsubscribe();
-    };
-  }, []);
-
-  const handleTeamNavigation = () => {
-    window.location.href = './our-team.html';
-  };
-
   return (
     <main className="flex flex-col min-h-screen">
       {/* Hero Section */}
       <PageHero
-        title="About Our Agency"
-        subtitle="Shaping Malta's built environment with expertise, integrity, and local pride."
+        title="About Our Company"
+        subtitle="Shaping the country built environment with expertise, integrity, and local pride."
         backgroundImage="https://spark-builder.s3.us-east-1.amazonaws.com/image/2026/4/26/8e1e3e21-8f7e-44ed-8b57-3641d9715b3d.png"
         variant="compact"
       />
@@ -107,9 +85,6 @@ export default function AboutUsContent() {
       {/* Core Values */}
       <ValuesGrid values={companyProfile.values} />
 
-      {/* Team Preview */}
-      <TeamPreviewSection teamMembers={featuredTeam} />
-
       {/* CTA Section */}
       <section className="page-body bg-secondary/30 border-t border-border">
         <div className="max-w-3xl mx-auto text-center space-y-6">
@@ -129,14 +104,6 @@ export default function AboutUsContent() {
             >
               Book a Consultation
               <SafeIcon name="ArrowRight" size={18} className="group-hover:translate-x-1 transition-transform" />
-            </Button>
-            <Button
-              variant="outline"
-              className="interactive flex items-center justify-center gap-2"
-              onClick={handleTeamNavigation}
-            >
-              Meet Our Team
-              <SafeIcon name="Users" size={18} />
             </Button>
           </div>
         </div>

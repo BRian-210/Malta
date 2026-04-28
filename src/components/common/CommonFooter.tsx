@@ -16,7 +16,7 @@ export default function CommonFooter() {
                 <SafeIcon name="Building2" size={18} />
               </div>
               <span className="text-lg font-bold tracking-tight">
-                Malta<span className="text-primary">Intel Construction Company</span>
+                Malta<span className="text-primary"> Intel Construction Company</span>
               </span>
             </div>
             <p className="text-sm text-muted-foreground leading-relaxed max-w-xs">
