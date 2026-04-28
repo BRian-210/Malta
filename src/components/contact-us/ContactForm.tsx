@@ -13,7 +13,7 @@ interface ContactFormProps {
 }
 
 export default function ContactForm({ isClient }: ContactFormProps) {
-  const adminEmail = 'githinjibriank973@gmail.com';
+  const adminEmail = 'kinyanmuigai@gmail.com';
   const [formData, setFormData] = useState({
     name: '',
     email: '',
