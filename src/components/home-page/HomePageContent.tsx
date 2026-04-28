@@ -9,32 +9,24 @@ import CTASection from '@/components/home-page/CTASection';
 import * as ServiceService from '@/data/ServiceService';
 import * as ProjectService from '@/data/projectService';
 import * as ArticleService from '@/data/ArticleService';
-import * as TeamMemberService from '@/data/TeamMemberService';
 
 export default function HomePageContent() {
   const [services] = useState(() => ServiceService.getAll());
   const [featuredProjects, setFeaturedProjects] = useState(() => ProjectService.query({ filter: { featured: true } }));
   const [featuredArticles] = useState(() => ArticleService.query({ filter: { featured: true } }));
-  const [featuredTeamMembers, setFeaturedTeamMembers] = useState(() => TeamMemberService.query({ filter: { featured: true } }));
 
   useEffect(() => {
     const syncContent = async () => {
-      const [projects, teamMembers] = await Promise.all([
-        ProjectService.fetchAllShared(),
-        TeamMemberService.fetchAllShared(),
-      ]);
+      const projects = await ProjectService.fetchAllShared();
 
       setFeaturedProjects(projects.filter((item) => item.featured).sort((a, b) => a.sortOrder - b.sortOrder));
-      setFeaturedTeamMembers(teamMembers.filter((item) => item.featured).sort((a, b) => a.sortOrder - b.sortOrder));
     };
 
     void syncContent();
     const unsubscribeProjects = ProjectService.subscribeToSharedProjects(() => void syncContent());
-    const unsubscribeTeam = TeamMemberService.subscribeToSharedTeamMembers(() => void syncContent());
 
     return () => {
       unsubscribeProjects();
-      unsubscribeTeam();
     };
   }, []);
 
@@ -54,8 +46,8 @@ export default function HomePageContent() {
         <WhyChooseUs />
       </section>
 
-      <section id="team" className="page-body bg-muted/20">
-        <TeamPreview teamMembers={featuredTeamMembers} />
+      <section id="ceo-message" className="page-body bg-muted/20">
+        <TeamPreview />
       </section>
 
       <section id="articles" className="page-body">
